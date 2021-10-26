@@ -21,7 +21,7 @@ class _stackState extends State<MyApp> {
     return Scaffold(
       body: Center(
         child: Stack(
-          // alignment: _alignmentDirectional,
+          alignment: _alignmentDirectional,
           children: <Widget>[
             Container(
               width: 300,
